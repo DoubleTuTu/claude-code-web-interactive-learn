@@ -1,0 +1,64 @@
+{
+  "name": "claude-code-web-interactive-learn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "一个互动教学平台，让你在浏览器中通过实际操作学习 Claude Code",
+  "license": "MIT",
+  "author": "DoubleTuTu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoubleTuTu/claude-code-web-interactive-learn.git"
+  },
+  "homepage": "https://github.com/DoubleTuTu/claude-code-web-interactive-learn#readme",
+  "bugs": {
+    "url": "https://github.com/DoubleTuTu/claude-code-web-interactive-learn/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "interactive-learning",
+    "tutorial",
+    "terminal-simulator",
+    "next.js",
+    "xterm"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "framer-motion": "^12.38.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@rolldown/binding-darwin-arm64": "^1.0.0",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^4.1.5",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "happy-dom": "^20.9.0",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.5"
+  }
+}

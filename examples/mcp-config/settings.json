@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-filesystem", "./project"],
+      "description": "文件系统访问 - 读写本地文件"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-github"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "description": "GitHub 集成 - 仓库、Issue、PR 管理"
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-postgres"],
+      "env": {
+        "DATABASE_URL": "${DATABASE_URL}"
+      },
+      "description": "PostgreSQL 数据库访问"
+    },
+    "slack": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-slack"],
+      "env": {
+        "SLACK_TOKEN": "${SLACK_TOKEN}"
+      },
+      "description": "Slack 集成 - 消息、频道管理"
+    }
+  }
+}

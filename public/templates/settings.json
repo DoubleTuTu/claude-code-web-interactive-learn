@@ -1,0 +1,65 @@
+{
+  "permissions": {
+    "allow": [
+      "read_file",
+      "write_file:./src/**",
+      "write_file:./tests/**",
+      "write_file:./public/**",
+      "bash:pnpm *",
+      "bash:git status",
+      "bash:git diff",
+      "bash:git add *",
+      "bash:git commit *",
+      "bash:git push",
+      "bash:npm test",
+      "bash:npm run lint",
+      "bash:npm run typecheck"
+    ],
+    "deny": [
+      "write_file:*.env",
+      "write_file:*.env.*",
+      "write_file:*secret*",
+      "write_file:*credential*",
+      "write_file:*password*",
+      "bash:rm -rf *",
+      "bash:sudo *",
+      "bash:curl * | sh",
+      "bash:wget * | sh",
+      "bash:chmod 777 *"
+    ],
+    "ask": [
+      "write_file:*config*",
+      "write_file:*package.json",
+      "bash:npm install *",
+      "bash:npm uninstall *",
+      "bash:npm publish",
+      "bash:git push --force",
+      "bash:git reset --hard"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "command": "echo \"Validating file path: $FILE\""
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "command": "echo \"File modified: $FILE\""
+      }
+    ],
+    "Notification": [
+      {
+        "command": "echo \"Task completed at $(date)\""
+      }
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-filesystem", "./project"]
+    }
+  }
+}

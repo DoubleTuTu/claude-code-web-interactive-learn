@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="20" fill="#1B2336" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <rect x="100" y="100" width="480" height="430" rx="12" fill="#0A0E1A"/>
+  <circle cx="120" cy="120" r="6" fill="#EF4444"/>
+  <circle cx="140" cy="120" r="6" fill="#F59E0B"/>
+  <circle cx="160" cy="120" r="6" fill="#22C55E"/>
+  <text x="130" y="180" font-family="monospace" font-size="18" fill="#94A3B8">$ </text>
+  <text x="170" y="180" font-family="monospace" font-size="18" fill="#22C55E">claude</text>
+  <text x="130" y="220" font-family="monospace" font-size="18" fill="#E2E8F0">Welcome to Claude Code!</text>
+  <text x="130" y="260" font-family="monospace" font-size="18" fill="#94A3B8">╭─────────────────────────╮</text>
+  <text x="130" y="290" font-family="monospace" font-size="18" fill="#94A3B8">│  Ready to code...       │</text>
+  <text x="130" y="320" font-family="monospace" font-size="18" fill="#94A3B8">╰─────────────────────────╯</text>
+  <text x="130" y="380" font-family="monospace" font-size="18" fill="#22C55E">█</text>
+  <text x="650" y="250" font-family="Inter, sans-serif" font-size="48" font-weight="bold" fill="#F8FAFC">在终端里</text>
+  <text x="650" y="310" font-family="Inter, sans-serif" font-size="48" font-weight="bold" fill="url(#accent)">学会 Claude Code</text>
+  <text x="650" y="370" font-family="Inter, sans-serif" font-size="20" fill="#94A3B8">Codecademy 风格的互动教学平台</text>
+  <text x="650" y="420" font-family="Inter, sans-serif" font-size="20" fill="#94A3B8">浏览器内终端 · 即时反馈 · 零配置</text>
+  <text x="650" y="500" font-family="Inter, sans-serif" font-size="16" fill="#64748B">claudecode-learn.vercel.app</text>
+</svg>

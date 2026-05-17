@@ -19,14 +19,14 @@ export async function generateMetadata({
 
   return {
     title: lesson
-      ? `${lesson.title} — ClaudeCode Learn`
-      : "课程未找到 — ClaudeCode Learn",
+      ? `${lesson.title} — Claude-Code-Web-Interactive-Learn`
+      : "课程未找到 — Claude-Code-Web-Interactive-Learn",
     description:
       lesson?.description ??
       "在浏览器中操作终端模拟器，按步骤学习 Claude Code",
     alternates: { canonical: `/lessons/${id}` },
     openGraph: {
-      title: lesson ? `${lesson.title} — ClaudeCode Learn` : undefined,
+      title: lesson ? `${lesson.title} — Claude-Code-Web-Interactive-Learn` : undefined,
       description: lesson?.description,
       url: `${SITE_URL}/lessons/${id}`,
       type: "article",

@@ -343,7 +343,7 @@ describe("Level schema", () => {
 describe("Course schema", () => {
   const validCourse = {
     id: "claudecode-learn",
-    title: "ClaudeCode Learn",
+    title: "Claude-Code-Web-Interactive-Learn",
     description: "学习 Claude Code 的互动教学平台",
     locale: "zh",
     levels: [
@@ -377,7 +377,7 @@ describe("Course schema", () => {
 describe("Full course hierarchy", () => {
   const fullCourse = {
     id: "claudecode-learn",
-    title: "ClaudeCode Learn",
+    title: "Claude-Code-Web-Interactive-Learn",
     description: "学习 Claude Code 的互动教学平台",
     locale: "zh",
     levels: [

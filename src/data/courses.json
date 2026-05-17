@@ -1,6 +1,6 @@
 {
   "id": "claudecode-learn",
-  "title": "ClaudeCode Learn",
+  "title": "Claude-Code-Web-Interactive-Learn",
   "description": "学习 Claude Code 的互动教学平台",
   "locale": "zh",
   "levels": [
@@ -23,7 +23,7 @@
                 {
                   "id": "step-1",
                   "type": "guide",
-                  "instruction": "欢迎来到 ClaudeCode Learn！在这个教程中，你将学习如何使用 Claude Code。\n\n首先，让我们在终端中试试手。",
+                  "instruction": "欢迎来到 Claude-Code-Web-Interactive-Learn！在这个教程中，你将学习如何使用 Claude Code。\n\n首先，让我们在终端中试试手。",
                   "annotation": "Claude Code 是 Anthropic 官方的命令行 AI 助手"
                 },
                 {

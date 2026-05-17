@@ -57,11 +57,11 @@ const FEATURES = [
 const courseJsonLd = {
   "@context": "https://schema.org",
   "@type": "Course",
-  name: "ClaudeCode Learn — 互动教学平台",
+  name: "Claude-Code-Web-Interactive-Learn — 互动教学平台",
   description: "在浏览器中操作终端模拟器，按步骤学习 Claude Code 的使用方法",
   provider: {
     "@type": "Organization",
-    name: "ClaudeCode Learn",
+    name: "Claude-Code-Web-Interactive-Learn",
     url: "https://claude-code-web-interactive-learn.vercel.app",
   },
 };
@@ -84,7 +84,7 @@ export default function Home() {
           <span className="w-7 h-7 bg-[var(--accent-purple)] rounded-md flex items-center justify-center font-mono text-sm font-medium text-white">
             &gt;_
           </span>
-          ClaudeCode Learn
+          Claude-Code-Web-Interactive-Learn
         </Link>
         <div className="flex items-center gap-8">
           <Link href="#courses" className="text-sm font-medium text-[var(--fg-secondary)] hover:text-[var(--fg)] transition-colors">
@@ -241,7 +241,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-[var(--border)] px-12 py-8 text-center text-xs text-[var(--fg-muted)]">
-        ClaudeCode Learn · 开源项目 · 用 ❤️ 为开发者打造 · 共 {totalLessons} 节课程
+        Claude-Code-Web-Interactive-Learn · 开源项目 · 用 ❤️ 为开发者打造 · 共 {totalLessons} 节课程
       </footer>
     </div>
   );

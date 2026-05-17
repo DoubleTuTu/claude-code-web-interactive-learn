@@ -14,22 +14,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ClaudeCode Learn — 互动教学平台",
+  title: "Claude-Code-Web-Interactive-Learn — 互动教学平台",
   description: "在浏览器中操作终端模拟器，按步骤学习 Claude Code",
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
   openGraph: {
-    title: "ClaudeCode Learn — 互动教学平台",
+    title: "Claude-Code-Web-Interactive-Learn — 互动教学平台",
     description: "在浏览器中操作终端模拟器，按步骤学习 Claude Code",
     url: SITE_URL,
-    siteName: "ClaudeCode Learn",
+    siteName: "Claude-Code-Web-Interactive-Learn",
     type: "website",
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "ClaudeCode Learn — 互动教学平台",
+        alt: "Claude-Code-Web-Interactive-Learn — 互动教学平台",
       },
     ],
   },
@@ -43,7 +43,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ClaudeCode Learn",
+    name: "Claude-Code-Web-Interactive-Learn",
     url: SITE_URL,
   };
 

@@ -79,7 +79,7 @@
 
 ### Core
 
-| Feature | Description |
+| Feature |描述|
 |---------|-------------|
 | 🖥️ **Authentic Terminal** | xterm.js-based simulator with blinking green cursor, faithful to the real thing |
 | ✅ **Instant Feedback** | Know immediately if you completed each step correctly; answers shown after 3 attempts |
@@ -90,7 +90,7 @@
 
 ### Pedagogy
 
-| Feature | Description |
+| Feature |描述|
 |---------|-------------|
 | 🎓 **Progressive Learning** | From beginner to advanced, step by step |
 | 🧠 **Mental Models** | Build conceptual understanding before hands-on practice |
@@ -102,9 +102,11 @@
 
 ## Screenshots
 
-<img width="2025" height="1163" alt="Screenshot 1" src="https://github.com/user-attachments/assets/b2e26518-f91c-4739-8113-4a818b415a66" />
+<img width="2022" height="1163" alt="截屏2026-05-17 10 35 06" src="https://github.com/user-attachments/assets/3c476742-36c7-431f-bcc6-b25ae4652803" />
 
-<img width="2013" height="1160" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b82365af-23b6-4fa4-beac-0ba97516fa9a" />
+
+<img width="2013" height="1148" alt="截屏2026-05-17 10 35 20" src="https://github.com/user-attachments/assets/bb9ef78d-bbae-4c27-a415-f2113527c76f" />
+
 
 <img width="2037" height="1160" alt="Screenshot 3" src="https://github.com/user-attachments/assets/6d41962a-0c35-4c78-92e0-0870662e84e1" />
 

@@ -99,7 +99,12 @@
 
 ## 截图
 
-> 💡 **提示**: 运行 `pnpm dev` 后访问 https://claude-code-web-interactive-learn.vercel.app 查看实际效果。截图稍后补充。
+<img width="2025" height="1163" alt="截屏2026-05-17 08 39 38" src="https://github.com/user-attachments/assets/b2e26518-f91c-4739-8113-4a818b415a66" />
+
+<img width="2013" height="1160" alt="截屏2026-05-17 08 39 50" src="https://github.com/user-attachments/assets/b82365af-23b6-4fa4-beac-0ba97516fa9a" />
+
+<img width="2037" height="1160" alt="截屏2026-05-17 08 40 11" src="https://github.com/user-attachments/assets/6d41962a-0c35-4c78-92e0-0870662e84e1" />
+
 
 ---
 

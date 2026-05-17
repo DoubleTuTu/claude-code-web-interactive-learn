@@ -1,11 +1,11 @@
-# ClaudeCode Learn
+# Claude-Code-Web-Interactive-Learn
 
 <p align="center">
   <img src="public/og-image.svg" alt="ClaudeCode Learn" width="400">
 </p>
 
 <p align="center">
-  <strong>一个 Codecademy / Scrimba 风格的 Claude Code 互动教学平台</strong>
+  <strong>一个在网页端模拟终端学习 Claude Code 互动教学平台</strong>
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@
 
 ## 简介
 
-**ClaudeCode Learn** 是一个互动教学平台，让你在浏览器中通过实际操作学习 Claude Code。无需安装任何软件，打开浏览器就能开始学习。
+**Claude-Code-Web-Interactive-Learn** 是一个互动教学平台，让你在浏览器中通过模拟实际操作学习 Claude Code。无需安装任何软件，打开浏览器就能开始学习。
 
 > 💡 **适合人群**: 想要学习 Claude Code 的开发者、想要构建 AI Agent 的工程师、想要了解 AI 编程助手的技术爱好者
 
@@ -358,29 +358,7 @@ cat settings.json
 
 ---
 
-## 部署
 
-### Vercel (推荐)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/DoubleTuTu/claude-code-web-interactive-learn)
-
-```bash
-# 安装 Vercel CLI
-npm i -g vercel
-
-# 部署
-vercel
-```
-
-### 其他平台
-
-项目支持任何支持 Next.js 的部署平台：
-- Netlify
-- AWS Amplify
-- Railway
-- Render
-
----
 
 ## 贡献
 
@@ -441,6 +419,20 @@ git push origin feature/AmazingFeature
 ---
 
 ## 致谢
+
+### 特别感谢
+
+本项目的课程内容（s01-s12）主要参考并致敬以下开源项目：
+
+- [learn-claude-code](https://github.com/JackSSK/learn-claude-code) - **主要参考项目**。本平台 s01-s12 的课程结构与内容直接源于该项目的 12 个教学 session，包括 Agent Loop、工具调用、TodoWrite、子代理、技能加载、上下文压缩、任务系统、后台任务、Agent 团队、团队协议、自主 Agent、Worktree 隔离等核心主题。
+
+同时感谢以下项目提供的宝贵参考资料：
+
+- [claude-howto](https://github.com/clarenceshieh/claude-howto) - 渐进式 Claude Code 学习指南，为本项目 Hooks、MCP 等高级主题提供了重要参考
+- [claude-code-from-scratch](https://github.com/anthropics/claude-code-from-scratch) - 从零构建 Claude Code 架构的深度教程，为权限系统等章节提供了架构视角
+- [claude-code-ultimate-guide](https://github.com/anthropics/claude-code-ultimate-guide) - 全面的 Claude Code 参考指南，涵盖了 25 种工作流和 271 道测验题
+
+### 技术致谢
 
 - [Claude Code](https://docs.anthropic.com/claude-code) - Anthropic 官方的命令行 AI 助手
 - [Next.js](https://nextjs.org) - React 框架

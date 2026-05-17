@@ -99,7 +99,7 @@
 
 ## 截图
 
-> 💡 **提示**: 运行 `pnpm dev` 后访问 http://localhost:3000 查看实际效果。截图稍后补充。
+> 💡 **提示**: 运行 `pnpm dev` 后访问 https://claude-code-web-interactive-learn.vercel.app 查看实际效果。截图稍后补充。
 
 ---
 
@@ -126,7 +126,7 @@ pnpm dev
 
 ### 访问
 
-打开浏览器访问 http://localhost:3000
+打开浏览器访问 https://claude-code-web-interactive-learn.vercel.app
 
 ### 其他命令
 

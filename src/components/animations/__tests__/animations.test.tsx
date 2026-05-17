@@ -10,9 +10,9 @@ import {
 // Mock framer-motion to avoid animation issues in tests
 vi.mock("framer-motion", () => ({
   motion: {
-    div: ({ children, ...props }: any) => <div {...props}>{children}</div>,
+    div: ({ children, ...props }: React.PropsWithChildren<Record<string, unknown>>) => <div {...props}>{children}</div>,
   },
-  AnimatePresence: ({ children }: any) => children,
+  AnimatePresence: ({ children }: React.PropsWithChildren) => children,
 }));
 
 describe("AgentLoopAnimation", () => {

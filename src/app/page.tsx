@@ -188,7 +188,7 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           {course.levels.map((level) =>
             level.chapters.map((chapter) =>
-              chapter.lessons.map((lesson, idx) => (
+              chapter.lessons.map((lesson) => (
                 <Link
                   key={lesson.id}
                   href={`/lessons/${lesson.id}`}

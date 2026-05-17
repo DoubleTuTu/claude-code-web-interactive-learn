@@ -35,6 +35,10 @@
   <a href="#许可证">许可证</a>
 </p>
 
+<p align="center">
+  <a href="README_EN.md">English Documentation</a>
+</p>
+
 ---
 
 ## 目录
